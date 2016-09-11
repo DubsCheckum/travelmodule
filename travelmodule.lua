@@ -1,4 +1,4 @@
-xname = "Traveling Module (UDF)"
+xname = "Traveling Module"
 xauthor = "SCode"
 xdescription = "This is a traveling module to make scripting easier."
 
