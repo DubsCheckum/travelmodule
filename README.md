@@ -3,7 +3,6 @@
 The script is intended to help you code easier, by removing the necessity of thousands of ifs and elseifs by replacing it with an algorithm that does the work for you. Basically, using a user-defined table with the path your script needs to take, my Map Traveling Support is intended to move the player to any map inside your path table.
 
 ## Example
-For an example, I'll show you what I currently use to make my script and Redshkie's All-Catcher compatible:
 ```lua
 t = {
     "Pokecenter Cinnabar",
