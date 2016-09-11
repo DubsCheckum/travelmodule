@@ -13,7 +13,8 @@ t = {
     "Cinnabar mansion 3",
 }
 
-logging = true -- you can set this off if you wouldn't like to log traveling information
+logging = true -- you can set this to "false" if you wouldn't like to log traveling information
+-- logging is set true by default
 
 require 'travelmodule'
 
