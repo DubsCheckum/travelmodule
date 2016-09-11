@@ -13,9 +13,6 @@ t = {
     "Cinnabar mansion 3",
 }
 
-logging = true -- you can set this to "false" if you wouldn't like to log traveling information
--- logging is set true by default
-
 require 'travelmodule'
 
 function onPathAction()
@@ -36,6 +33,7 @@ end
 
 (*) Compatibility variable settings are individual variables unrelated to the Traveling Support UDF.
 
+You can set logging to false before loading the travelmodule script, right before the "require" tag. Although, it is still set to true by default and it may help with debugging.
 
 ### To-Do List
 - Implement an Anti-Mod feature by recording cell changes
