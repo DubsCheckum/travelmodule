@@ -23,7 +23,7 @@ function moveTo(endlocation)
 	playalocation = getMapName()
 	for i=1,#t,1 do
 		if t[i] == playalocation and t[i] == endlocation then
-			fatal("Arrived at destination!")
+			log("Arrived at destination!")
 			return 0
 		elseif t[i] == playalocation then
 			locindex = i
