@@ -13,24 +13,21 @@ t = {
     "Cinnabar mansion 3",
 }
 
-pokecenter = "Pokecenter Cinnabar" -- (*) Compatibility variable settings
-catchmap = "Cinnabar mansion 3" -- (*) Compatibility variable settings
-
-logging = true
+logging = true -- you can set this off if you wouldn't like to log traveling information
 
 require 'travelmodule'
 
 function onPathAction()
 if getUsablePokemonCount() >= 1 then
-    if getMapName() != catchmap then
-        moveTo(catchmap)
-    elseif getMapName() == catchmap then
-        moveToRectangle(minX, minY, maxX, maxY)
+    if getMapName() != "Cinnabar mansion 3" then
+        moveTo("Cinnabar mansion 3")
+    elseif getMapName() == "Cinnabar mansion 3" then
+        moveToGrass()
     end
 else
-    if getMapName() != pokecenter then
-        moveTo(pokecenter)
-    elseif getMapName() == pokecenter then
+    if getMapName() != "Pokecenter Cinnabar" then
+        moveTo("Pokecenter Cinnabar")
+    elseif getMapName() == "Pokecenter Cinnabar" then
         usePokecenter()
     end
 end
