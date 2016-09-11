@@ -13,8 +13,8 @@ t = {
     "Cinnabar mansion 3",
 }
 
-pokecenter = "Pokecenter Cinnabar"
-catchmap = "Cinnabar mansion 3"
+pokecenter = "Pokecenter Cinnabar" -- (*) Compatibility variable settings
+catchmap = "Cinnabar mansion 3" -- (*) Compatibility variable settings
 
 logging = true
 
