@@ -37,3 +37,9 @@ end
 ```
 
 (*) Compatibility variable settings are individual variables unrelated to the Traveling Support UDF.
+
+
+### To-Do List
+- Implement an Anti-Mod feature by recording cell changes
+- Create algorithm for routes with multiple destination points
+- Add support for path exceptions
