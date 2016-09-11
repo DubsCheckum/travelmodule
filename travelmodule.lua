@@ -38,7 +38,7 @@ function moveTo(endlocation)
 	if logging == true and doonce == true then
 	log ("-------------------------------------------------")
 	log ("Map ID: " .. locindex .. ") " .. playalocation)
-	log ("                     ↓")
+	log ("             ↓")
 	log ("Map ID: " .. endlocindex .. ") " .. endlocation)
 	log ("-------------------------------------------------")
 	doonce = false
